@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-szhibmngp-4zbo$is$jyabam=u7qh*us6p%qgmb75^cu8k=xt9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['desatreinamento.azurewebsites.net']
 
 
 # Application definition
@@ -66,7 +66,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'desatreinamentos.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -113,6 +112,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIR = ('/static/')
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

@@ -1,1 +1,0 @@
-web: gunicorn desatreinamentos.wsgi --log-file -
