@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'desa-treinamento'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_72513480B24644F985BDD59F61580E00 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7F08CA52690D462DA69C2131A4887476 }}
